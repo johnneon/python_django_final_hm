@@ -23,6 +23,7 @@ from bunker import views as bunker_views
 urlpatterns = [
     path('homework', bunker_views.index),
     path('homework/accounts', bunker_views.accounts),
+    path('homework/accounts/action', bunker_views.accounts_action),
     path('homework/bunker', bunker_views.bunker),
 
     path("admin/", admin.site.urls),

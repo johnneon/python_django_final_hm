@@ -1,3 +1,3 @@
-from django.db import models
+from bunker.database import InMemoryDatabase
 
-# Create your models here.
+database = InMemoryDatabase()
