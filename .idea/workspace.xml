@@ -5,20 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a985aa6-2bb8-4546-806c-7d45fec4f16d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/django_project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_project/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_project/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_project/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_project/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bunker/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bunker/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firstapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles/components.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles/variables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bunker/accounts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bunker/bunker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bunker/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/firstapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/firstapp/newuser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +40,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Django Server.django_project.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/johnneon/MachineLearning/django_project/bunker",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,6 +55,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bunker" />
+      <recent name="$PROJECT_DIR$/skillfactory_progress" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/firstapp" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="django_project" type="Python.DjangoServer" factoryName="Django server">
       <module name="django_project" />
@@ -59,6 +72,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="django_project.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -92,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711289900555</updated>
-      <workItem from="1711289907959" duration="721000" />
+      <workItem from="1711289907959" duration="6904000" />
     </task>
     <servers />
   </component>
