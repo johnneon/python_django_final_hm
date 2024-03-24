@@ -1,0 +1,9 @@
+:root {
+    --main-bg-color: #222;
+    --ternary-bg-color: #fefdfd;
+
+    --main-text-color: #fff;
+    --ternary-text-color: #222;
+
+    --button-width: 120px;
+}
