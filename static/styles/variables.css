@@ -5,5 +5,11 @@
     --main-text-color: #fff;
     --ternary-text-color: #222;
 
+    --border-radius: 8px;
+
     --button-width: 120px;
+
+    --container-padding: 15px;
+
+    --form-width: 280px;
 }

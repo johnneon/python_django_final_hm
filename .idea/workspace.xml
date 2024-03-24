@@ -5,21 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a985aa6-2bb8-4546-806c-7d45fec4f16d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bunker/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bunker/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firstapp/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/styles/components.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/styles/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/styles/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/styles/variables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/bunker/accounts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/bunker/bunker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/bunker/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/firstapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/firstapp/newuser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/accounts/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bunker/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/bunker/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bunker/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/bunker/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bunker/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bunker/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bunker/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bunker/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/styles/components.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/components.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/styles/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bunker/accounts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bunker/accounts.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2e8cyRifAWYRIP1AQX6kVTrofPn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,12 +36,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Django Server.django_project.executor": "Run",
+    "Django Server.django_project.executor": "Debug",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
-    "git-widget-placeholder": "master",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "git-widget-placeholder": "johnneon/task/inMemoryDB",
     "last_opened_file_path": "/Users/johnneon/MachineLearning/django_project/bunker",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -61,6 +57,7 @@
       <recent name="$PROJECT_DIR$/skillfactory_progress" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/js/accounts" />
       <recent name="$PROJECT_DIR$/templates/firstapp" />
     </key>
   </component>
@@ -112,5 +109,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bunker/views.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
