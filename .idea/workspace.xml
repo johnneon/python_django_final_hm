@@ -17,6 +17,8 @@
       <change beforePath="$PROJECT_DIR$/django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/bunker/bunker.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bunker/bunker.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/bunker/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bunker/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bunker/bunker.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bunker/bunker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bunker/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bunker/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
