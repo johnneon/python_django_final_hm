@@ -1,20 +1,18 @@
 const user_remove_btns = [... (document.querySelectorAll('[data-remove]') ?? [])];
 
-if (user_remove_btns) {
-    user_remove_btns.forEach(btn => {
-        btn.addEventListener('click', async () => {
-            const user = btn.dataset.remove;
+user_remove_btns.forEach(btn => {
+    btn.addEventListener('click', async () => {
+        const user = btn.dataset.remove;
 
-            if (!user) {
-                return;
-            }
+        if (!user) {
+            return;
+        }
 
-            await fetch('/homework/accounts/action', {
-                method: 'POST',
-                body: JSON.stringify({ user, action: 'delete' }),
-            });
-
-            btn.parentNode.remove();
+        await fetch('/homework/accounts/action', {
+            method: 'POST',
+            body: JSON.stringify({ user, action: 'delete' }),
         });
+
+        btn.parentNode.remove();
     });
-}
+});

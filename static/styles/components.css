@@ -17,8 +17,13 @@
 }
 
 .btn:hover {
-    background: var(--ternary-bg-color);
-    transition: all .2s;
+    box-shadow: inset 0 0 10px 1px #ffffff;
+    text-shadow: 0 0 12px #ffffff;
+    transition: all .2s linear;
+}
 
-    color: var(--ternary-text-color);
+.btn-remove {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
 }

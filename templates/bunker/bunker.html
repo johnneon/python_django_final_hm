@@ -5,19 +5,129 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Bunker</title>
+
     <link href="{% static 'styles/index.css' %}" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'favicon/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'favicon/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'favicon/favicon-16x16.png' %}">
+    <link rel="manifest" href="{% static 'favicon/site.webmanifest' %}">
 </head>
-<body>
-    <main class="main_screen">
+<body class="bg">
+    <header class="header">
+        <a href="/homework" class="logo">Bunker</a>
+    </header>
+
+    <main class="bunker_screen">
         <div class="container">
-            <div class="title">
-                <h1>Bunker</h1>
-                <p>Best password manager</p>
+
+            <div class="bunker">
+
+                <div class="bunker__list">
+                    <h4 class="bunker__list__title" data-editable-section>
+                        Section 1
+                    </h4>
+
+                    <div class="bunker__list__item">
+                        <div class="bunker__list__item_inner">
+                            <div class="bunker__list__item__num">1.</div>
+                            <div class="bunker__list__item__login" data-editable>
+                                <span>Login: </span><span>johnneon</span>
+                            </div>
+                            <div class="bunker__list__item__separator"></div>
+                            <div class="bunker__list__item__password">
+                                <span>Password: </span><span data-editable>johnneon</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bunker__list__item">
+                        <div class="bunker__list__item_inner">
+                            <div class="bunker__list__item__num">1.</div>
+                            <div class="bunker__list__item__login-empty">
+                                <span>Login: </span><span data-editable>Type something...</span>
+                            </div>
+                            <div class="bunker__list__item__separator"></div>
+                            <div class="bunker__list__item__password">
+                                <span>Password: </span><span data-editable>johnneon</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bunker__list__item">
+                        <div class="bunker__list__item_inner">
+                            <div class="bunker__list__item__num">1.</div>
+                            <div class="bunker__list__item__login" data-editable>
+                                <span>Login: </span><span>johnneon</span>
+                            </div>
+                            <div class="bunker__list__item__separator"></div>
+                            <div class="bunker__list__item__password">
+                                <span>Password: </span><span data-editable>johnneon</span>
+                            </div>
+                            <div class="bunker__list__item__separator"></div>
+                            <div class="btn-remove bunker__list__item__remove" data-remove>❌</div>
+                        </div>
+                    </div>
+
+                    <button class="btn bunker__list__btn" data-add-item>Add new item</button>
+                </div>
+
+                <div class="separator"></div>
+
+                <div class="bunker__list">
+                    <h4 class="bunker__list__title" data-editable-section>
+                        Section 1
+                    </h4>
+
+                    <div class="bunker__list__item">
+                        <div class="bunker__list__item_inner">
+                            <div class="bunker__list__item__num">1.</div>
+                            <div class="bunker__list__item__login" data-editable>
+                                <span>Login: </span><span>johnneon</span>
+                            </div>
+                            <div class="bunker__list__item__separator"></div>
+                            <div class="bunker__list__item__password">
+                                <span>Password: </span><span data-editable>johnneon</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bunker__list__item">
+                        <div class="bunker__list__item_inner">
+                            <div class="bunker__list__item__num">1.</div>
+                            <div class="bunker__list__item__login" data-editable>
+                                <span>Login: </span><span>johnneon</span>
+                            </div>
+                            <div class="bunker__list__item__separator"></div>
+                            <div class="bunker__list__item__password">
+                                <span>Password: </span><span data-editable>johnneon</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bunker__list__item">
+                        <div class="bunker__list__item_inner">
+                            <div class="bunker__list__item__num">1.</div>
+                            <div class="bunker__list__item__login" data-editable>
+                                <span>Login: </span><span>johnneon</span>
+                            </div>
+                            <div class="bunker__list__item__separator"></div>
+                            <div class="bunker__list__item__password">
+                                <span>Password: </span><span data-editable>johnneon</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="separator"></div>
+
+                <div class="bunker__list_add__new"><button class="btn" data-add-section>Add new list</button></div>
+
             </div>
-            <div class="main_screen__btn">
-                <a href="{{help_page_path}}" class="btn">Get started</a>
-            </div>
+
         </div>
     </main>
+
+    <script src="{% static 'js/bunker/index.js' %}"></script>
 </body>
 </html>

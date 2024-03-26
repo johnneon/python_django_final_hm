@@ -2,7 +2,13 @@
 class InMemoryDatabase:
     def __init__(self):
         self.__database = {
-            'johnneon': {},
+            'johnneon': {
+                'Section 1': {
+                    'johnneon@mail.ru': '123456',
+                    'nickname': 'john'
+                },
+                'Section 2': {}
+            },
             'test': {},
         }
 

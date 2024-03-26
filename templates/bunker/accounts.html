@@ -5,9 +5,15 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Bunker</title>
+
     <link href="{% static 'styles/index.css' %}" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'favicon/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'favicon/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'favicon/favicon-16x16.png' %}">
+    <link rel="manifest" href="{% static 'favicon/site.webmanifest' %}">
 </head>
-<body>
+<body class="bg">
     <header class="header">
         <a href="/homework" class="logo">Bunker</a>
     </header>
@@ -33,7 +39,7 @@
                             <a href="/homework/bunker?user={{ user }}" title="Log in">
                                 <span class="accounts__list__item__icon">🔑</span>{{ user }}
                             </a>
-                            <button class="accounts__list__item__remove" data-remove="{{ user }}" title="Remove account">❌</button>
+                            <button class="btn-remove accounts__list__item__remove" data-remove="{{ user }}" title="Remove account">❌</button>
                         </li>
                     {% endfor %}
                 </ul>
