@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a985aa6-2bb8-4546-806c-7d45fec4f16d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/accounts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/accounts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bunker/Api.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bunker/Api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bunker/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bunker/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bunker/accounts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bunker/accounts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
