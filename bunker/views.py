@@ -11,7 +11,7 @@ from bunker.models import database
 # Create your views here.
 def index(request):
     context = {
-        "help_page_path": "/homework/accounts",
+        "help_page_path": "/accounts",
     }
     return render(request, "bunker/index.html", context=context)
 
@@ -19,9 +19,8 @@ def index(request):
 def accounts(request):
     if request.method == "POST":
         login = request.POST.get("login")
-        # todo add else statement
         if database.create_owner(login):
-            return HttpResponseRedirect(f"/homework/bunker?user={login}")
+            return HttpResponseRedirect(f"/bunker?user={login}")
 
     new_user_form = NewUserForm()
     users = database.get_users()

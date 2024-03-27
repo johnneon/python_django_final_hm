@@ -187,7 +187,6 @@ export class App {
 
         const isLoginEditing = target.parentNode.classList.contains('bunker__list__item__login');
 
-        console.log(isLoginEditing, text, login);
         this.isItemCreation
             ? this.api.createField(section, isLoginEditing ? text : login, '')
             : this.api.updateField(section, isLoginEditing ? text : login, password, isLoginEditing && this.activeItemValue);

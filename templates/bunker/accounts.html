@@ -15,7 +15,7 @@
 </head>
 <body class="bg">
     <header class="header">
-        <a href="/homework" class="logo">Bunker</a>
+        <a href="/" class="logo">Bunker</a>
     </header>
 
     <main class="accounts_screen">
@@ -36,7 +36,7 @@
                 <ul class="accounts__list">
                     {% for user in users %}
                         <li class="accounts__list__item">
-                            <a href="/homework/bunker?user={{ user }}" title="Log in">
+                            <a href="/bunker?user={{ user }}" title="Log in">
                                 <span class="accounts__list__item__icon">🔑</span>{{ user }}
                             </a>
                             <button class="btn-remove accounts__list__item__remove" data-remove="{{ user }}" title="Remove account">❌</button>

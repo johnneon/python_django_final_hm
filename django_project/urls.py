@@ -17,13 +17,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from bunker import views as bunker_views
+from bunker import views
 
 urlpatterns = [
-    path("", bunker_views.index, name="home"),
-    path("/accounts", bunker_views.accounts, name="accounts"),
-    path("/accounts/action", bunker_views.accounts_action, name="accounts_action"),
-    path("/bunker", bunker_views.bunker, name="bunker"),
-    path("/bunker/action", bunker_views.bunker_action, name="bunker_action"),
+    path("", views.index, name="home"),
+    path("accounts", views.accounts, name="accounts"),
+    path("accounts/action", views.accounts_action, name="accounts_action"),
+    path("bunker", views.bunker, name="bunker"),
+    path("bunker/action", views.bunker_action, name="bunker_action"),
     path("admin/", admin.site.urls),
 ]

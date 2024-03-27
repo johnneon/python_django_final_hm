@@ -6,21 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1a985aa6-2bb8-4546-806c-7d45fec4f16d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstapp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstapp/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstapp/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstapp/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstapp/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstapp/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/accounts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/accounts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bunker/Api.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bunker/Api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bunker/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bunker/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/bunker/accounts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bunker/accounts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bunker/bunker.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bunker/bunker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bunker/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bunker/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstapp/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstapp/views.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,25 +28,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Django Server.django_project.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "johnneon/task/bunkerPage",
-    "last_opened_file_path": "/Users/johnneon/MachineLearning/django_project/bunker",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Django Server.django_project.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;johnneon/task/bunkerPage&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/johnneon/MachineLearning/django_project/static/js&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/bunker" />
       <recent name="$PROJECT_DIR$/skillfactory_progress" />
     </key>
@@ -111,11 +101,14 @@
       <workItem from="1711289907959" duration="6904000" />
       <workItem from="1711386177592" duration="7105000" />
       <workItem from="1711471775094" duration="10825000" />
-      <workItem from="1711559425933" duration="697000" />
+      <workItem from="1711559425933" duration="1658000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
