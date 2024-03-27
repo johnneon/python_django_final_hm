@@ -1,5 +1,10 @@
 class InMemoryDatabase:
+    """
+        In memory database for login-password structure
+    """
+
     def __init__(self):
+        # that how db would look like
         self.__database = {
             "johnneon": {
                 "Section 1": {"johnneon@mail.ru": "123456", "nickname": "john"},

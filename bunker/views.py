@@ -10,6 +10,9 @@ from bunker.models import database
 
 # Create your views here.
 def index(request):
+    """
+        Renders home page
+    """
     context = {
         "help_page_path": "/accounts",
     }
@@ -17,6 +20,10 @@ def index(request):
 
 
 def accounts(request):
+    """
+        Renders accounts page,
+        where user can choose account or create new
+    """
     if request.method == "POST":
         login = request.POST.get("login")
         if database.create_owner(login):
@@ -30,6 +37,9 @@ def accounts(request):
 
 @csrf_exempt
 def accounts_action(request):
+    """
+        JSON-RPC-like method for accounts
+    """
     if request.method == "POST":
         body_unicode = request.body.decode("utf-8")
         body = json.loads(body_unicode)
@@ -43,6 +53,9 @@ def accounts_action(request):
 
 
 def bunker(request):
+    """
+        Renders bunker page
+    """
     user = request.GET.get("user")
     context = {"rows": database.get(user)}
     return render(request, "bunker/bunker.html", context=context)
@@ -50,6 +63,9 @@ def bunker(request):
 
 @csrf_exempt
 def bunker_action(request):
+    """
+        JSON-RPC-like method for password table
+    """
     if request.method == "POST":
         body_unicode = request.body.decode("utf-8")
         body = json.loads(body_unicode)
