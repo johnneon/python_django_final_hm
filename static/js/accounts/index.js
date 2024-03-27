@@ -8,7 +8,7 @@ user_remove_btns.forEach(btn => {
             return;
         }
 
-        await fetch('/homework/accounts/action', {
+        await fetch('/accounts/action', {
             method: 'POST',
             body: JSON.stringify({ user, action: 'delete' }),
         });
