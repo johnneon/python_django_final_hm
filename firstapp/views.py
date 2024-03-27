@@ -6,12 +6,12 @@ from firstapp.forms import NewUserForm
 
 
 def index(request):
-    name = ('Иван', 'Доберман')
+    name = ("Иван", "Доберман")
     birth = (30, 2, 1999)
 
     data = {
-        'name': name,
-        'birth': birth,
+        "name": name,
+        "birth": birth,
     }
 
     return render(request, "firstapp/index.html", context=data)
@@ -34,12 +34,11 @@ def newuser(request):
     else:
         newuserform = NewUserForm()
 
-    return render(request, "firstapp/newuser.html",
-                  {"form": newuserform})
+    return render(request, "firstapp/newuser.html", {"form": newuserform})
 
 
 def about(request):
-    s = '''
+    s = """
 <h1>О проекте</h1> 
 
 <h2>Это мой первый проект на Django</h2>
@@ -47,12 +46,12 @@ def about(request):
 <p align="justify">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 <p>
-'''
+"""
     return HttpResponse(s)
 
 
 def req(request):
-    s = f'''
+    s = f"""
 <p>scheme: схема запроса (http или https)</p>
 <p>{request.scheme}</p>
 <p>body: представляет тело запроса в виде строки байтов</p>
@@ -81,49 +80,49 @@ def req(request):
 <p>{request.get_host()}</p>
 <p>get_port(): возвращает номер порта<\p>
 <p>{request.get_port()}</p>
-'''
+"""
 
     return HttpResponse(s)
 
 
 def random(request):
     res = "Орел" if randint(0, 1) == 1 else "Решка"
-    s = f'''
+    s = f"""
 <h1>Бросим монетку?</h2>
 
 <h3>Результат броска: "{res}"</h3>
-'''
+"""
     return HttpResponse(s)
 
 
 def myname(request, name):
-    s = f'''
+    s = f"""
 <h1>Скажите, как его зовут?</h1>
 
 <h2>Меня зовут {name}.</h2>
 <h2>Будем знакомы!</h2>
-'''
+"""
     return HttpResponse(s)
 
 
 def users(request, username):
-    s = f'''
+    s = f"""
 <h1>Пользовательская страница</h1>
 
 <h3>User: {username}</h3>
 
-'''
+"""
     return HttpResponse(s)
 
 
 def products(request):
     product_id = request.GET.get("id")
     name = request.GET.get("name")
-    s = f'''
+    s = f"""
 <h1>Страница товара</h1>
 
 <h3>Prod ID: {product_id}</h3>
 <h3>Prod Name: {name}</h3>
 
-'''
+"""
     return HttpResponse(s)

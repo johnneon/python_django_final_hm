@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a985aa6-2bb8-4546-806c-7d45fec4f16d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static/js/bunker/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bunker/Api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bunker/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bunker/constants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bunker/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/bunker/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/accounts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/accounts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/components.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/components.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bunker/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bunker/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bunker/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bunker/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/styles/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/variables.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/bunker/accounts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bunker/accounts.html" afterDir="false" />
@@ -18,7 +21,6 @@
       <change beforePath="$PROJECT_DIR$/templates/bunker/bunker.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bunker/bunker.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/bunker/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bunker/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/bunker/bunker.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bunker/bunker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bunker/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bunker/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,21 +110,12 @@
       <updated>1711289900555</updated>
       <workItem from="1711289907959" duration="6904000" />
       <workItem from="1711386177592" duration="7105000" />
+      <workItem from="1711471775094" duration="10825000" />
+      <workItem from="1711559425933" duration="431000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/bunker/views.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

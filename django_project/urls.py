@@ -21,18 +21,18 @@ from firstapp import views
 from bunker import views as bunker_views
 
 urlpatterns = [
-    path('homework', bunker_views.index),
-    path('homework/accounts', bunker_views.accounts),
-    path('homework/accounts/action', bunker_views.accounts_action),
-    path('homework/bunker', bunker_views.bunker),
-
+    path("homework", bunker_views.index),
+    path("homework/accounts", bunker_views.accounts),
+    path("homework/accounts/action", bunker_views.accounts_action),
+    path("homework/bunker", bunker_views.bunker),
+    path("homework/bunker/action", bunker_views.bunker_action),
     path("admin/", admin.site.urls),
-    path('', views.index, name='home'),
-    path('users/<str:username>/', views.users),
-    path('products/', views.products),
-    path('newuser/', views.newuser),
-    re_path(r'^about', views.about, name='about'),
-    re_path('^req', views.req, name='requests'),
-    re_path('^random', views.random, name='random'),
-    re_path(r'^myname', views.myname, kwargs={'name': 'Иван Доберман'}, name='myname'),
+    path("", views.index, name="home"),
+    path("users/<str:username>/", views.users),
+    path("products/", views.products),
+    path("newuser/", views.newuser),
+    re_path(r"^about", views.about, name="about"),
+    re_path("^req", views.req, name="requests"),
+    re_path("^random", views.random, name="random"),
+    re_path(r"^myname", views.myname, kwargs={"name": "Иван Доберман"}, name="myname"),
 ]

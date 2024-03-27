@@ -159,6 +159,12 @@ input[type='text'] {
     margin-top: 10px;
 }
 
+.bunker__list__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .bunker__list__item {
     margin-bottom: 10px;
 }
