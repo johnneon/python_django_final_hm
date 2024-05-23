@@ -7,7 +7,20 @@ Client-server works like JSON-RPC arc.
 
 JSON-RPC
 
-To start project you have to create `.env` file, end create `SECRET_KEY` var there, so the project can start.
+~~To start project you have to create `.env` file, end create `SECRET_KEY` var there, so the project can start.~~
+The `.env` file already exist.
+
+Make sure you install libs:
+```shell
+# create virtual env
+python -m venv env
+
+# activate it
+source env/bin/activate
+
+# install libs
+pip install -r requirements.txt
+```
 
 Then run following command:
 ```bash
